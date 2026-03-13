@@ -1,6 +1,6 @@
 # StepGeomChecker
 
-Lightweight STEP / IGES / STL viewer for Windows.
+Lightweight STEP / IGES / STL viewer and exporter for Windows.
 
 ## Features
 - 3D viewing
@@ -8,6 +8,7 @@ Lightweight STEP / IGES / STL viewer for Windows.
 - Section view
 - Basic measurement
 - Assembly tree browsing
+- Export to STEP / IGES / STL
 
 ## Official Website
 http://www.lwj.co.jp/software/stepgeomchecker.html
