@@ -17,7 +17,7 @@ Open 3D CAD files quickly, inspect shapes, use section view, measure geometry, b
 
 ## Official Website
 http://www.lwj.co.jp/software/stepgeomchecker.html
-http://www.lwj.co.jp/
+
 ## Download
 The free version will be available from the Releases page.
 
