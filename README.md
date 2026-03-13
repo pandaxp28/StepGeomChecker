@@ -10,7 +10,7 @@ Lightweight STEP / IGES / STL viewer for Windows.
 - Assembly tree browsing
 
 ## Official Website
-https://www.lwj.co.jp/download.html
+http://www.lwj.co.jp/software/stepgeomchecker.html
 
 ## Download
 The free version will be available from the Releases page.
