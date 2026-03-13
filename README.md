@@ -20,3 +20,18 @@ http://www.lwj.co.jp/software/stepgeomchecker.html
 http://www.lwj.co.jp/
 ## Download
 The free version will be available from the Releases page.
+
+## Screenshots
+
+### Main View
+![Main View](images/mass.png)
+
+### Section View
+![Section View](images/s_s_view.png)
+
+### Measurement
+![Measurement](images/Measurement.png)
+
+### Assembly Tree
+![Assembly Tree](images/tree.png)
+
