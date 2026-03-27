@@ -1,13 +1,13 @@
-# StepGeomChecker
+# StepGeomChecker - Free STEP Viewer and 3D Measurement Tool for Windows
 
 <p align="center">
-  <b>3D model measurement, inspection, and reporting in one practical Windows tool.</b><br>
-  <b>3Dデータの計測・確認・記録を、ひとつのツールで扱いやすく。</b>
+  <b>Free STEP viewer, IGES viewer, STL viewer, and 3D model measurement tool for Windows.</b><br>
+  <b>STEPビューワ、IGESビューワ、STLビューワ、3Dデータの計測・確認ツール。</b>
 </p>
 
 <p align="center">
-  StepGeomChecker is a free Windows desktop tool focused on measuring and inspecting STEP / IGES / STL models.<br>
-  STEP / IGES / STL の 3Dデータを、計測・断面確認・重量確認・レポート出力まで実務で扱いやすくするフリーソフトです。
+  StepGeomChecker is a free Windows desktop tool focused on viewing, measuring, and inspecting STEP / IGES / STL models.<br>
+  STEP / IGES / STL の 3Dデータを、表示、断面確認、寸法計測、重量確認、HTMLレポート出力まで実務で扱いやすくするフリーソフトです。
 </p>
 
 <p align="center">
@@ -20,14 +20,14 @@
 
 ## English
 
-**StepGeomChecker** is a free Windows tool for **measuring and inspecting** 3D CAD files such as **STEP**, **IGES**, and **STL**.
+**StepGeomChecker** is a free Windows tool for **viewing, measuring, and inspecting** 3D CAD files such as **STEP**, **IGES**, and **STL**.
 
-It is designed for practical review work: check model shape, inspect internal geometry with section view, measure dimensions and areas, manage weight information, and export the results as **HTML reports**.
+If you are looking for a **free STEP viewer for Windows** with **section view**, **dimension checking**, **area / perimeter measurement**, and **HTML reporting**, StepGeomChecker is designed for that workflow.
 
 ### Highlights
 
-- Measure and inspect **STEP / IGES / STL** models in a Windows GUI
-- Check internal structure with **section view**
+- Open and inspect **STEP / IGES / STL** models in a Windows GUI
+- Use **section view** to check internal geometry
 - Measure:
   - shortest distance between faces
   - cylinder diameter
@@ -51,8 +51,8 @@ It is designed for practical review work: check model shape, inspect internal ge
 
 ### Typical Use Cases
 
-- Inspecting 3D model shape before review or manufacturing discussion
-- Checking internal geometry with section view
+- Using it as a **STEP viewer** or **IGES viewer** on Windows
+- Inspecting internal geometry with section view
 - Measuring distances, diameters, radii, perimeter, area, or edge length
 - Recording inspection results as HTML reports
 - Managing part or subassembly weight information
@@ -62,13 +62,13 @@ It is designed for practical review work: check model shape, inspect internal ge
 
 ## 日本語
 
-**StepGeomChecker** は、**STEP**、**IGES**、**STL** などの 3D CAD データを **計測・確認** するための Windows 向けフリーソフトです。
+**StepGeomChecker** は、**STEP**、**IGES**、**STL** などの 3D CAD データを **表示・計測・確認** するための Windows 向けフリーソフトです。
 
-形状確認、断面確認、各種寸法計測、外周・面積計測、重量設定、**HTML レポート出力** までを、実務で扱いやすい形でまとめています。
+**Windows向けの STEPビューワ** として、形状確認、断面確認、各種寸法計測、外周・面積計測、重量設定、**HTML レポート出力** までを、実務で扱いやすい形でまとめています。
 
 ### 特長
 
-- **STEP / IGES / STL** を Windows GUI で計測・確認可能
+- **STEP / IGES / STL** を Windows GUI で表示・計測・確認可能
 - **断面表示** により内部形状を確認可能
 - 以下の計測に対応
   - 面間の最短距離
@@ -93,6 +93,7 @@ It is designed for practical review work: check model shape, inspect internal ge
 
 ### 主な用途
 
+- **STEPビューワ** や **IGESビューワ** として使いたいとき
 - 3Dモデル形状を確認したいとき
 - 断面で内部形状を確認したいとき
 - 距離、径、R、外周、面積などを計測したいとき
@@ -143,7 +144,7 @@ It is designed for practical review work: check model shape, inspect internal ge
 
 | Feature | English | 日本語 |
 |---|---|---|
-| Measurement & inspection | Measure and inspect STEP / IGES / STL models | STEP / IGES / STL を計測・確認 |
+| STEP / IGES / STL viewing | Open and inspect STEP / IGES / STL models | STEP / IGES / STL を表示・確認 |
 | Section view | Inspect internal shape with section display | 断面表示で内部形状を確認 |
 | Measurement tools | Measure distance, diameter, radius, perimeter, area, and edge length | 距離、径、R、外周、面積、エッジ長さを計測 |
 | Measurement workflow | Use hover preview, edge-priority selection, memos, and highlight recall | ホバー表示、優先選択、メモ、再ハイライトに対応 |
