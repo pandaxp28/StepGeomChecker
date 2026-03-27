@@ -1,13 +1,13 @@
 # StepGeomChecker
 
 <p align="center">
-  <b>3D model viewing, measurement, and reporting in one practical Windows tool.</b><br>
-  <b>3Dデータの閲覧・計測・記録を、ひとつのツールで扱いやすく。</b>
+  <b>3D model measurement, inspection, and reporting in one practical Windows tool.</b><br>
+  <b>3Dデータの計測・確認・記録を、ひとつのツールで扱いやすく。</b>
 </p>
 
 <p align="center">
-  StepGeomChecker is a free Windows desktop tool for viewing and inspecting STEP / IGES / STL models.<br>
-  STEP / IGES / STL の表示、断面確認、計測、重量設定、HTMLレポート出力までを扱えるフリーソフトです。
+  StepGeomChecker is a free Windows desktop tool focused on measuring and inspecting STEP / IGES / STL models.<br>
+  STEP / IGES / STL の 3Dデータを、計測・断面確認・重量確認・レポート出力まで実務で扱いやすくするフリーソフトです。
 </p>
 
 <p align="center">
@@ -20,19 +20,14 @@
 
 ## English
 
-**StepGeomChecker** is a free Windows utility for viewing and inspecting 3D CAD files such as **STEP**, **IGES**, and **STL**.
+**StepGeomChecker** is a free Windows tool for **measuring and inspecting** 3D CAD files such as **STEP**, **IGES**, and **STL**.
 
-It is designed for practical daily use: open models quickly, check sections, browse assembly trees, measure geometry, set weight information, and export results as **HTML reports**.
+It is designed for practical review work: check model shape, inspect internal geometry with section view, measure dimensions and areas, manage weight information, and export the results as **HTML reports**.
 
 ### Highlights
 
-- View **STEP / IGES / STL** models in a Windows GUI
-- Switch between **perspective** and **orthographic** view
-- Use preset views such as **front / right / top / isometric**
-- Toggle **wireframe / shaded** display and control transparency
-- Use **section view** for internal confirmation
-- Browse **assembly trees** with linked highlight display
-- Isolate a selected part or subassembly
+- Measure and inspect **STEP / IGES / STL** models in a Windows GUI
+- Check internal structure with **section view**
 - Measure:
   - shortest distance between faces
   - cylinder diameter
@@ -47,34 +42,34 @@ It is designed for practical daily use: open models quickly, check sections, bro
 - Export measurement and weight information as **HTML reports**
 - Set weights for parts and subassemblies
 - Use material presets for automatic weight calculation
+- Browse **assembly trees** with linked highlight display
+- Isolate a selected part or subassembly
+- Switch between **perspective** and **orthographic** view
+- Use preset views such as **front / right / top / isometric**
+- Toggle **wireframe / shaded** display and control transparency
 - Export selected parts, subassemblies, or full models to **STEP / IGES / STL**
 
 ### Typical Use Cases
 
-- Checking 3D model shapes before sharing or review
-- Inspecting internal geometry with section view
-- Measuring distances, diameters, radii, perimeter, or area
+- Inspecting 3D model shape before review or manufacturing discussion
+- Checking internal geometry with section view
+- Measuring distances, diameters, radii, perimeter, area, or edge length
 - Recording inspection results as HTML reports
 - Managing part or subassembly weight information
-- Exporting selected geometry for reuse
+- Exporting selected geometry for reuse or sharing
 
 ---
 
 ## 日本語
 
-**StepGeomChecker** は、**STEP**、**IGES**、**STL** などの 3D CAD データを表示・確認・計測できる Windows 向けフリーソフトです。
+**StepGeomChecker** は、**STEP**、**IGES**、**STL** などの 3D CAD データを **計測・確認** するための Windows 向けフリーソフトです。
 
-モデルの表示、断面確認、アセンブリツリー確認、各種計測、重量設定、**HTML レポート出力** までを、実務で使いやすい形でまとめています。
+形状確認、断面確認、各種寸法計測、外周・面積計測、重量設定、**HTML レポート出力** までを、実務で扱いやすい形でまとめています。
 
 ### 特長
 
-- **STEP / IGES / STL** を Windows GUI で表示可能
-- **透視投影 / 平行投影** を切替可能
-- **正面 / 右 / 上 / アイソメ** などの視点へ切替可能
-- **ワイヤー / シェーディング** 表示切替と透明度調整に対応
+- **STEP / IGES / STL** を Windows GUI で計測・確認可能
 - **断面表示** により内部形状を確認可能
-- **アセンブリツリー** と連動したハイライト表示に対応
-- 選択部品やサブアセンブリの **単独表示** に対応
 - 以下の計測に対応
   - 面間の最短距離
   - 円筒径
@@ -89,11 +84,16 @@ It is designed for practical daily use: open models quickly, check sections, bro
 - 計測結果や重量情報を **HTML レポート** として出力可能
 - 部品・サブアセンブリごとの重量設定に対応
 - 材料プリセットによる重量自動計算に対応
+- **アセンブリツリー** と連動したハイライト表示に対応
+- 選択部品やサブアセンブリの **単独表示** に対応
+- **透視投影 / 平行投影** を切替可能
+- **正面 / 右 / 上 / アイソメ** などの視点へ切替可能
+- **ワイヤー / シェーディング** 表示切替と透明度調整に対応
 - 選択部品、サブアセンブリ、全体モデルを **STEP / IGES / STL** へ出力可能
 
 ### 主な用途
 
-- 3Dモデル形状をすばやく確認したいとき
+- 3Dモデル形状を確認したいとき
 - 断面で内部形状を確認したいとき
 - 距離、径、R、外周、面積などを計測したいとき
 - 計測結果を HTML レポートとして残したいとき
@@ -143,15 +143,16 @@ It is designed for practical daily use: open models quickly, check sections, bro
 
 | Feature | English | 日本語 |
 |---|---|---|
-| 3D viewing | Open and inspect STEP / IGES / STL models | STEP / IGES / STL を表示・確認 |
-| View control | Switch projection, view direction, shading, and transparency | 投影方式、視点、表示方式、透明度を切替 |
+| Measurement & inspection | Measure and inspect STEP / IGES / STL models | STEP / IGES / STL を計測・確認 |
 | Section view | Inspect internal shape with section display | 断面表示で内部形状を確認 |
-| Assembly tree | Browse parts and subassemblies with linked highlight | ツリーから部品・サブアセンブリを確認しハイライト連動 |
-| Isolation | Isolate selected parts or subassemblies | 選択部品・サブアセンブリを単独表示 |
-| Measurement | Measure distance, diameter, radius, perimeter, area, and edge length | 距離、径、R、外周、面積、エッジ長さを計測 |
+| Measurement tools | Measure distance, diameter, radius, perimeter, area, and edge length | 距離、径、R、外周、面積、エッジ長さを計測 |
+| Measurement workflow | Use hover preview, edge-priority selection, memos, and highlight recall | ホバー表示、優先選択、メモ、再ハイライトに対応 |
 | Session save | Auto-save and restore measurements with JSON | 計測内容を JSON で自動保存・復元 |
 | HTML report | Export measurement and weight results to HTML | 計測結果・重量情報を HTML 出力 |
 | Weight setup | Set weights for parts and subassemblies | 部品・サブアセンブリ重量を設定 |
+| Assembly tree | Browse parts and subassemblies with linked highlight | ツリーから部品・サブアセンブリを確認しハイライト連動 |
+| Isolation | Isolate selected parts or subassemblies | 選択部品・サブアセンブリを単独表示 |
+| View control | Switch projection, view direction, shading, and transparency | 投影方式、視点、表示方式、透明度を切替 |
 | Export | Export full model or selected geometry to STEP / IGES / STL | 全体または選択形状を STEP / IGES / STL へ出力 |
 
 ---
