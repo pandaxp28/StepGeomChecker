@@ -121,21 +121,13 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 <table>
   <tr>
     <td align="center"><b>Main View / メイン画面</b></td>
-    <td align="center"><b>Section View / 断面表示</b></td>
+
   </tr>
   <tr>
-    <td><img src="images/mass.png" alt="StepGeomChecker Main View" width="100%"></td>
     <td><img src="images/main_UI.png" alt="StepGeomChecker Section View" width="100%"></td>
   </tr>
 
-  <tr>
-    <td align="center"><b>Measurement / 計測</b></td>
-    <td align="center"><b>Assembly Tree / アセンブリツリー</b></td>
-  </tr>
-  <tr>
-    <td><img src="images/Measurement.png" alt="StepGeomChecker Measurement" width="100%"></td>
-    <td><img src="images/tree.png" alt="StepGeomChecker Assembly Tree" width="100%"></td>
-  </tr>
+
 </table>
 
 ---
