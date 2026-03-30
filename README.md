@@ -125,7 +125,7 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
   </tr>
   <tr>
     <td><img src="images/mass.png" alt="StepGeomChecker Main View" width="100%"></td>
-    <td><img src="images/s_s_view.png" alt="StepGeomChecker Section View" width="100%"></td>
+    <td><img src="images/main_UI.png" alt="StepGeomChecker Section View" width="100%"></td>
   </tr>
 
   <tr>
