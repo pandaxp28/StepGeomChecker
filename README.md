@@ -22,12 +22,21 @@
 
 **StepGeomChecker** is a free Windows tool for **viewing, measuring, and inspecting** 3D CAD files such as **STEP**, **IGES**, and **STL**.
 
-If you are looking for a **free STEP viewer for Windows** with **section view**, **dimension checking**, **area / perimeter measurement**, and **HTML reporting**, StepGeomChecker is designed for that workflow.
+If you are looking for a **free STEP viewer for Windows** with **section view**, **dimension checking**, **hole checking**, **area / perimeter measurement**, and **HTML reporting**, StepGeomChecker is designed for that workflow.
 
 ### Highlights
 
 - Open and inspect **STEP / IGES / STL** models in a Windows GUI
 - Use **section view** to check internal geometry
+- Check holes in **STEP / IGES** models:
+  - normal holes
+  - counterbore holes
+  - countersink holes
+- Filter hole results by hole type, pilot diameter, through / blind / unknown status, counterbore diameter / depth, and countersink outer diameter / angle
+- Compare detected hole counts with expected counts
+- Review hole totals and individual hole result lists
+- Link selected hole results with the 3D view for position confirmation
+- Save, reload, and export hole checking results to **CSV**
 - Measure:
   - shortest distance between faces
   - cylinder diameter
@@ -49,10 +58,18 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 - Toggle **wireframe / shaded** display and control transparency
 - Export selected parts, subassemblies, or full models to **STEP / IGES / STL**
 
+### V2.2.0 Update
+
+StepGeomChecker V2.2.0 adds hole checking for **STEP / IGES** models. The feature supports normal holes, counterbore holes, and countersink holes, with condition-based filtering, expected-count comparison, individual result review, 3D view linkage, result saving, and CSV export.
+
+Hole checking in V2.2.0 is for **STEP / IGES only**. STL, threaded holes, tapped holes, slots, oval holes, 2D drawing comparison, and AI-based manufacturing process judgment are not supported by this feature.
+
 ### Typical Use Cases
 
 - Using it as a **STEP viewer** or **IGES viewer** on Windows
 - Inspecting internal geometry with section view
+- Checking normal holes, counterbore holes, and countersink holes in STEP / IGES models
+- Comparing expected hole counts with detected hole counts
 - Measuring distances, diameters, radii, perimeter, area, or edge length
 - Recording inspection results as HTML reports
 - Managing part or subassembly weight information
@@ -64,12 +81,21 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 
 **StepGeomChecker** は、**STEP**、**IGES**、**STL** などの 3D CAD データを **表示・計測・確認** するための Windows 向けフリーソフトです。
 
-**Windows向けの STEPビューワ** として、形状確認、断面確認、各種寸法計測、外周・面積計測、重量設定、**HTML レポート出力** までを、実務で扱いやすい形でまとめています。
+**Windows向けの STEPビューワ** として、形状確認、断面確認、穴チェック、各種寸法計測、外周・面積計測、重量設定、**HTML レポート出力** までを、実務で扱いやすい形でまとめています。
 
 ### 特長
 
 - **STEP / IGES / STL** を Windows GUI で表示・計測・確認可能
 - **断面表示** により内部形状を確認可能
+- **STEP / IGES** モデルの穴チェックに対応
+  - 通常穴
+  - 座グリ穴
+  - 皿穴
+- 穴種別、下穴径、貫通 / 止まり / Unknown、座グリ径 / 座グリ深さ、皿外径 / 皿角度による絞り込みに対応
+- 期待件数と検出件数の比較に対応
+- 穴種別総数と個別穴一覧の確認に対応
+- 3D 表示との連動により穴位置を確認可能
+- 穴チェック結果の保存、再表示、**CSV 出力** に対応
 - 以下の計測に対応
   - 面間の最短距離
   - 円筒径
@@ -91,11 +117,19 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 - **ワイヤー / シェーディング** 表示切替と透明度調整に対応
 - 選択部品、サブアセンブリ、全体モデルを **STEP / IGES / STL** へ出力可能
 
+### V2.2.0 更新内容
+
+StepGeomChecker V2.2.0 では、**STEP / IGES** モデルを対象とした穴チェック機能を追加しました。通常穴、座グリ穴、皿穴を条件指定で抽出し、期待件数との比較、個別穴一覧、3D 表示との連動、結果保存、CSV 出力に対応しています。
+
+V2.2.0 の穴チェックは **STEP / IGES 専用** です。STL、ネジ穴 / タップ穴、長穴 / 楕円穴、2D 図面との自動照合、AI による加工工程判定は対象外です。
+
 ### 主な用途
 
 - **STEPビューワ** や **IGESビューワ** として使いたいとき
 - 3Dモデル形状を確認したいとき
 - 断面で内部形状を確認したいとき
+- STEP / IGES モデルの通常穴、座グリ穴、皿穴をチェックしたいとき
+- 期待穴数と検出穴数を比較したいとき
 - 距離、径、R、外周、面積などを計測したいとき
 - 計測結果を HTML レポートとして残したいとき
 - 部品やサブアセンブリの重量を整理したいとき
@@ -138,6 +172,9 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 |---|---|---|
 | STEP / IGES / STL viewing | Open and inspect STEP / IGES / STL models | STEP / IGES / STL を表示・確認 |
 | Section view | Inspect internal shape with section display | 断面表示で内部形状を確認 |
+| Hole checking | Check normal, counterbore, and countersink holes in STEP / IGES models | STEP / IGES の通常穴・座グリ穴・皿穴をチェック |
+| Hole filtering | Filter by hole type, diameter, through / blind / unknown status, counterbore dimensions, and countersink dimensions | 穴種別、径、貫通 / 止まり / Unknown、座グリ寸法、皿穴寸法で絞り込み |
+| Hole result management | Compare expected and detected counts, review individual holes, link results with 3D view, and export CSV | 期待件数比較、個別穴一覧、3D連動、CSV出力に対応 |
 | Measurement tools | Measure distance, diameter, radius, perimeter, area, and edge length | 距離、径、R、外周、面積、エッジ長さを計測 |
 | Measurement workflow | Use hover preview, edge-priority selection, memos, and highlight recall | ホバー表示、優先選択、メモ、再ハイライトに対応 |
 | Session save | Auto-save and restore measurements with JSON | 計測内容を JSON で自動保存・復元 |
@@ -164,6 +201,14 @@ If you are looking for a **free STEP viewer for Windows** with **section view**,
 - CSV
 - HTML
 
+### Hole Checking / 穴チェック
+
+| Format | Support | 日本語 |
+|---|---|---|
+| STEP / STP | Supported | 対応 |
+| IGES / IGS | Supported | 対応 |
+| STL | Not supported | 対象外 |
+
 ---
 
 ## Download / ダウンロード
@@ -188,6 +233,9 @@ The product page is also available on the company website.
 
 - Supported environment is **Windows 10 / 11 64-bit**.  
   対応環境は **Windows 10 / 11 64-bit** です。
+
+- Hole checking in V2.2.0 supports **STEP / IGES only**. STL, threaded holes, tapped holes, slots, and oval holes are not supported.  
+  V2.2.0 の穴チェックは **STEP / IGES 専用** です。STL、ネジ穴 / タップ穴、長穴 / 楕円穴は対象外です。
 
 - Some operations may take time depending on model size and complexity.  
   モデルサイズや複雑さによっては処理に時間がかかる場合があります。
